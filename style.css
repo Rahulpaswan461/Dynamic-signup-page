@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Lato:ital,wght@0,700;1,400&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Work+Sans:wght@400;700&display=swap');
+*{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: 'Poppins', sans-serif;
+}
+.container{
+       width:100%;
+       height:100vh;
+       background:url(https://images.unsplash.com/photo-1504466334719-af4ae9f12ad0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+       padding:12px 30px;
+      position:relative;
+}
+/* .login-form{
+       width:90%;
+       max-width:450px;
+       max-height: 500px;
+       background-color: #ffff;
+       padding:50px 60px 70px;
+       margin:0 auto;
+       position:absolute;
+       top:90px;
+       left:32%;
+       text-align: center;
+}
+.login-form h1{
+      font-size: 30px;
+      padding-bottom:60px;
+      color:#3c00a0;
+      position: relative;
+}
+
+.login-form h1::after{
+       content: '';
+       width:30px;
+       height:4px;
+       border-radius: 3px;
+       background-color: #3c00a0;
+       position:absolute;
+       bottom:-12px;
+       left:50%;
+       top:45%;
+       transform: translateX(-50%);
+
+}
+.form-tag{
+         position:relative;
+         top:-50px;
+}
+a{
+         text-decoration: none;
+         color:#3c00a0;
+}
+
+.input-field{
+     background:#aeaeae;
+     margin:15px 0;
+     border-radius:3px;
+     display:flex;
+     align-items: center;
+     max-height:65px;
+     transition: max-height 0.5s;
+     overflow: hidden;
+}
+input{
+       width:100%;
+       background:transparent;
+       border:0;
+       outline:0;
+       padding:18px 15px;
+}
+.input-field i{
+       margin-left:16px;
+       color:#555;
+}
+.btn-div{
+       width:100%;
+       display:flex;
+       justify-content: space-between;
+}
+.btn-div button{
+         flex-basis:48%;
+         background-color: #3c00a0;
+         color:#fff;
+         height:40px;
+         border-radius: 20px;
+         border:0;
+         outline:0;
+         cursor: pointer;
+         transition:background-color 0.5s;
+}
+.btn-div button.disButton{
+       background-color:#aeaeae;
+       color:#555;
+} */
+
+.login-form{
+           width: 90%;
+           max-width: 450px;
+           max-height: 500px;
+            background-color: #fff;
+            margin:0 auto;
+            padding:50px 70px 60px;
+            position: absolute;
+            top:25%;
+            left:32%;
+            text-align: center;
+            
+}
+.login-form h1{
+         font-size:30px;
+         color:#3c00a0;
+         position: relative;
+         margin-bottom:30px;
+
+}
+.login-form h1::after{
+         content:'';
+         width:30px;
+         height:3px;
+         border-radius: 3px;
+         background-color:#3c00a0;
+         position:absolute;
+         top:50px;
+         left:45%;
+         bottom:-12px
+}
+.input-field{
+          background-color: #aeaeae;
+          margin:15px 0;
+          border-radius:3px;
+          display:flex;
+         align-items: center;
+         max-height:65px;
+         transition: max-height 1s;
+         overflow:hidden;
+         
+}
+input{
+       width: 100%;
+       background-color: #aeaeae;
+       padding:18px 15px;
+       border:0;
+       outline:0;    
+}
+.input-field i{
+       margin-left:16px;
+       color:#555;
+}
+.form-tag{
+          position: relative;
+          top:-10px;
+}
+.form-tag p{
+          color:black;
+          font-size:16px;
+}
+.form-tag a {
+          text-decoration: none;
+}
+.btn-div{
+         width:100%;
+         display: flex;
+         align-items:center;
+         justify-content: space-between;
+}
+.btn-div button{
+          flex-basis:48%;
+          background-color: #3c00a0;
+          color:#aeaeae;
+          border-radius:20px;
+          height:40px;
+          border:0;
+          outline:0;
+          transition: background-color 0.5s;
+          cursor: pointer;
+
+}
+.btn-div .disable{
+          background-color:#aeaeae;
+          color:#555;
+}
